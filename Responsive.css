@@ -1,0 +1,315 @@
+@media (max-width:992px){
+    .about-container{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .aboutLeft{
+        height: 100%;
+    }
+    .aboutRight{
+        height: auto;
+        padding: 50px;
+    }
+    .title p{
+        width: 60%;
+
+    }
+    .competence-container{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .competence-img{
+        width: 100%;
+    }
+    .competenceBox-left{
+        right: 0px;
+    }
+    .testimonial-container {
+        grid-template-columns:  1fr;
+    }
+    .testi-left{
+        height: auto;
+    }
+}
+@media(max-width:768px) {
+    .container {
+        padding: 0 20px;
+    }
+    .navbar{
+        background: rgb(15, 15, 15);
+    }
+    .nav-menu {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        background: rgb(15, 15, 15);
+        overflow: hidden;
+        padding: 80px;
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    .hamburger.active .line:nth-child(2) {
+        background: transparent;
+    }
+    
+    .hamburger.active .line:nth-child(1) {
+        transform: translateY(9px) rotate(225deg);
+    }
+    
+    .hamburger.active .line:nth-child(3) {
+        transform: translateY(-9px) rotate(-225deg);
+    }
+    
+    .hamburger {
+        display: block;
+    }
+    
+    .nav-btn {
+        margin-left: 0;
+    }
+
+    .hero-container {
+        top: 30%;
+    }
+    .about-container{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .aboutLeft{
+        height: 100%;
+    }
+    .aboutRight{
+        height: auto;
+        padding: 50px;
+    }
+    .feature-container{
+       grid-template-columns: 1fr 1fr;
+       row-gap: 30px;
+       padding-top: 50px;
+    }
+    .title p{
+        width: 80%;
+    }
+    .competenceBox-right{
+        padding: 75px 50px;
+    }
+    .price-container{
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 30px;
+    }
+    .client-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .feed-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .join-container{
+        grid-template-columns:  1fr;
+        justify-items: center;
+    }
+    .foot-content p{
+        font-size: 1.4rem;
+        width: 80%;
+    }
+    .join-left {
+        padding: 4rem 3rem;
+    }
+}
+
+@media(max-width:568px) {
+    .container {
+        padding: 0 10px;
+    }
+    header.sticky {
+        height: 70px;
+    }
+    .navbar{
+        height: 70px;
+    }
+    .logo a {
+        font-size: 2rem;
+    }
+    .nav-menu{
+        top: 70px;
+    }
+    .nav-menu a {
+        font-size: 1.4rem;
+    }
+    
+    .nav-btn button {
+        font-size: 1.4rem;
+    }
+    .hamburger .line{
+        width: 30px;
+    }
+
+    .hero-container {
+        align-items: center;
+        top: 35%;
+    }
+    .hero-container h1{
+        text-align: center;
+        font-size: 4rem;
+    }
+    .hero-container p{
+        text-align: center;
+        font-size: 1.6rem;
+        width: 90%;
+    }
+    .hero-btn button {
+        font-size: 1.4rem;
+    }
+    .aboutRight{
+        padding: 50px 30px;
+    }
+    .aboutRight h2{
+      font-size: 4rem;
+    }
+    .aboutRight div{
+       flex-direction: column;
+    }
+    .aboutRight div p{
+       font-size: 1.4rem;
+    }
+    .title{
+        padding-bottom: 50px;
+    }
+    .title p{
+        width: 95%;
+        font-size: 1.8rem;
+        color: #ffffff;
+        text-align: center;
+    }
+    .feature-container{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+     }
+     .feature-icon i{
+        font-size: 3rem;
+    }
+    .featureBoxes h3{
+        font-size: 1.8rem;
+    }
+    .featureBoxes p{
+        font-size: 1.4rem;
+    }
+    .feature-btn:hover{
+        transform: translateY(-3px);
+    }
+    .feature-btn button{
+        font-size: 1.4rem;
+
+    }
+    .competence {
+        padding-top: 60px;
+    }
+    .competenceBox-right{
+        padding: 50px 25px;
+    }
+    .price-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .price-icon i{
+        font-size: 3rem;
+    }
+    .priceBoxes h3{
+        font-size: 1.8rem;
+    }
+    .priceBoxes p{
+        font-size: 1.4rem;
+    }
+    .price-btn button{
+        font-size: 1.4rem;
+    }
+    .price .title p{
+       color: #263d5a;
+       width: 95%;
+       font-size: 1.8rem;
+    }
+    .client .title p{
+        width: 90%;
+    }
+    .client-container{
+        grid-template-columns: 1fr;
+    }
+    .feed-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feedback-container h2{
+        font-size: 3rem;
+        width: 100%;
+    }
+    .feedItems{
+         flex-direction: column;
+    }
+    .feedItems i{
+        font-size: 1.8rem;
+    }
+    .feedItems p{
+        font-size: 1.6rem;
+    }
+    .hello-content h3{
+        font-size: 1.6rem;
+    }
+    .hello-content h2{
+        font-size: 3.5rem;
+        font-weight: 600;
+        color: #263d5a;
+    }
+    .hello-content p{
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #263d5a;
+    }
+    .join-left button{
+        font-size: 1.4rem;
+    }
+    .join-left input{
+        font-size: 1.4rem;
+    }
+    .testi-left p{
+        font-size: 1.6rem;
+    }
+    .testi-left h3{
+        font-size: 1.4rem;
+    }
+    .join-left{
+        padding: 3rem 2rem;
+    }
+    .join-wrapper{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .contact-wrapper{
+        width: 100%;
+    }    
+    .form-input-50{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .foot_container{
+        flex-direction: column;
+    }
+    .contact-wrapper h2{
+        font-size: 2.5rem;
+    }
+    .contact-wrapper form button{
+         font-size: 1.4rem;
+     }
+     .footBox-left{
+        flex-direction: column;
+    }
+    .foot-content p{
+        font-size: 1.4rem;
+        width: 100%;
+    }
+    .footitems ul a{
+        font-size: 1.4rem;
+    }
+}
